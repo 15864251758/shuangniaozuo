@@ -1,0 +1,214 @@
+*{
+	font-family: Microsoft Yahei;
+}
+.top img{
+	width: 100%;
+}
+.top{
+	margin-top: 10px;
+	height: 40px;
+}
+img{
+	width: 100%;
+}
+/*.nav{
+	margin-top: 40px;
+}*/
+
+.phone-nav .navbar-brand img{
+	height: 100%;
+	width: auto;
+}
+.phone-nav{
+	border: none;
+	background: none;
+	margin-bottom: 0;
+}
+.product img{
+	width: 33.333%;
+	float: left;
+}
+.phone-nav .navbar-brand{
+	padding: 8px 15px;
+}
+.product{
+	margin-top: 20px;
+}
+.title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dadada;
+}
+.title h4{
+	position: relative;
+	margin-bottom: 4px;
+}
+.title h4 span {
+    background-color: #414141;
+    height: 2px;
+    width: 160px;
+    position: relative;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.about{
+	margin-top: 20px;
+}
+.ourabout{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.ourabout .swiper-button-prev{
+	left: -15px;
+}
+.ourabout .swiper-button-next{
+	right: -15px;
+}
+.footer{
+	width: 100%;
+	background: #1e2432;
+	color: #646872;
+	font-size: 14px;
+	padding-top: 30px;
+}
+.footer p img{
+	height: 14px;
+	vertical-align: middle;
+	margin-right: 4px;
+	width: auto;
+}
+.copy{
+	width: 100%;
+	border-top: 1px solid #646872;
+	margin-top: 10px;
+	padding: 4px;
+	text-align: center;
+	font-size: 12px;
+}
+.copy a{
+	color: #626872;
+	font-size: 12px;
+	margin: 0 4px;
+}
+.pro{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.pro img{
+	margin-bottom: 30px;
+}
+.aboutus img{
+	margin-bottom: 20px;
+}
+.aboutus p{
+	color: #7c7c7c;
+	font-size: 14px;
+}
+.aboutus1{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.about-block2-title {
+    line-height: 24px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size:14px;
+}
+.about-block2-center {
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: #000 !important;
+    margin-bottom: 0 !important;
+}
+.aboutus1 h4 {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+}
+.aboutus1 .row h4{
+	
+}
+.aboutus2{
+	text-align: center;
+	background: url(../images/about-5.jpg);
+	color: #fff;
+	padding: 20px;
+}
+.custom img{
+	height: auto;
+	padding: 0;
+}
+.custom{
+	margin-top: 30px;
+	overflow: hidden;
+}
+.custom span{
+	color: #B00A0A;
+	font-size: 22px;
+}
+.custom h4{
+	text-align: center;
+}
+.custom-title1 span{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 800;
+	color: #fff;
+	background: #B00A0A;
+	border-radius: 50%;
+	height: 28px;
+	width: 28px;
+	line-height: 28px;
+	text-align: center;
+	margin-right: 4px;
+}
+.custom-txt{
+	color: #747474;
+	line-height: 20px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.custom-txt p{
+	margin-bottom: 4px;
+}
+.tectus-block-left h3 {
+    color: #d40000;
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.tectus-block-txt {
+    padding-left: 14px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.tectus-block-txt span {
+    background: #d40000;
+    width: 4px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.tectus-block-txt p {
+    padding-bottom: 0px !important;
+    line-height: 18px;
+    margin-bottom: 2px;
+}
+.link{
+	margin-bottom: 20px;
+}
+.aboutus2 p{
+	color: #fff;
+}
