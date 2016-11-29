@@ -4,7 +4,7 @@ $(function(){
 	$('.main2').css({
 		'top':main1h-22,
 	});
-	
+	$('.title').addClass('new-show');
 	var allh=$('.main1').height()+$('.main2').height()+420;
 	$('body').css({
 		'height':allh,

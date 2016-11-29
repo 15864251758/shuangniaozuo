@@ -1,20 +1,24 @@
 *{
 	font-family: Microsoft Yahei;
 }
-.top img{
+img{
 	width: 100%;
 }
 .top{
 	margin-top: 10px;
-	height: 40px;
+	margin-bottom: 10px;
+
 }
-img{
-	width: 100%;
+.top img{
+	line-height: 104px;
 }
+
 /*.nav{
 	margin-top: 40px;
 }*/
-
+.about p{
+	text-indent: 30px;
+}
 .phone-nav .navbar-brand img{
 	height: 100%;
 	width: auto;
@@ -25,7 +29,7 @@ img{
 	margin-bottom: 0;
 }
 .product img{
-	width: 33.333%;
+	width: 50%;
 	float: left;
 }
 .phone-nav .navbar-brand{
@@ -71,10 +75,11 @@ img{
 }
 .footer{
 	width: 100%;
-	background: #1e2432;
-	color: #646872;
+	background: #838383;
+	color: #fff;
 	font-size: 14px;
 	padding-top: 30px;
+	margin-bottom: 56px;
 }
 .footer p img{
 	height: 14px;
@@ -82,18 +87,30 @@ img{
 	margin-right: 4px;
 	width: auto;
 }
-.copy{
+.nav{
+	background:#414141;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
 	width: 100%;
-	border-top: 1px solid #646872;
-	margin-top: 10px;
-	padding: 4px;
-	text-align: center;
-	font-size: 12px;
+	height: 56px;
 }
-.copy a{
-	color: #626872;
-	font-size: 12px;
-	margin: 0 4px;
+.nav ul{
+	padding: 0;
+}
+.nav li{
+	float: left;
+	list-style: none;
+	width: 20%;
+	height: 56px;
+	line-height: 56px;
+	border-left: 1px solid #fff;
+	text-align: center;
+	font-size: 18px;
+}
+.nav li:nth-child(1){
+	border-left: 0px;
 }
 .pro{
 	text-align: center;
@@ -211,4 +228,44 @@ img{
 }
 .aboutus2 p{
 	color: #fff;
+}
+.news-row img{
+	width: 100%;
+}
+.news-row a{
+	color: inherit;
+	font-size: inherit;
+}
+.news-txt h4{
+	height: 20px;
+	overflow: hidden;
+	margin-top: 0;
+}
+.news-txt{
+	margin-bottom: 20px;
+}
+.news-row .col-xs-3{
+	padding: 0;
+}
+.news-title li{
+	float: left;
+	width: 46%;
+	height: 50px;
+	background: #000;
+	color: #fff;
+	list-style: none;
+	text-align: center;
+	margin: 0 2%;
+}
+.news-title{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.news-title a{
+	color: inherit;
+	font-size: 20px;
+	line-height: 50px;
+	color:#fff;
+	text-align: center;
 }
